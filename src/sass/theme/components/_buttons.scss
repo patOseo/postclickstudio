@@ -1,0 +1,45 @@
+.btn, 
+.wp-block-buttons .wp-block-button .wp-block-button__link.wp-element-button {
+    position: relative;
+    padding: .5rem 1.5rem;
+    border: 2px solid $black !important;
+    border-radius: 12px;
+    font-size: 1.5rem;
+    font-weight: 500;
+    color: $black;
+    background: transparent !important;
+
+    &:before {
+        content: '';
+        position: absolute;
+        top: 6px;
+        left: 6px;
+        width: 100%;
+        height: 100%;
+        background: $chartreuse;
+        border-radius: 12px;
+        transition: .2s;
+        z-index: -1;
+    }
+    &:hover {
+        border: 2px solid $black !important;
+
+        &:before {
+            top: 0;
+            left: 0;
+        }
+    }
+}
+
+.stretched-link-p {
+    a {
+        &:after {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+        }
+    }
+}

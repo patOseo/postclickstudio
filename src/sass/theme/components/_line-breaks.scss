@@ -1,0 +1,7 @@
+.line-br {
+    @include media-breakpoint-down(lg) {
+        br {
+            display: none;
+        }
+    }
+}

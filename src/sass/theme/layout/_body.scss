@@ -1,0 +1,18 @@
+body {
+    -webkit-font-smoothing: antialiased;
+}
+
+::selection {
+    background: tint-color($secondary, 20%);
+}
+
+.entry-content > .wp-block-group.is-layout-constrained {
+    @include media-breakpoint-down(xl) {
+        padding-left: 1.5rem;
+        padding-right: 1.5rem;
+    }
+}
+
+.container-wide {
+    max-width: 1600px;
+}

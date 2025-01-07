@@ -1,0 +1,91 @@
+{
+    "version": 2,
+    "styles": {
+        "blocks": {
+            "core/button": {
+                "typography": {
+                    "fontWeight": "700",
+                    "fontStyle": "normal"
+                },
+                "color": {
+                    "background": "var(--wp--preset--color--red)",
+                    "text": "var(--wp--preset--color--truewhite)"
+                },
+                "border": {
+                    "radius": "0px"
+                },
+                "spacing": {
+                    "padding": ".5rem 3rem"
+                }
+            }
+        }
+    },
+    "settings": {
+        "spacing": {
+			"margin": true,
+			"padding": true
+		},
+        "typography": {
+            "fontWeight": true,
+            "lineHeight": true
+        },
+        "color": {
+            "palette": [
+                {
+                    "slug": "deepgreen",
+                    "color": "#193B3A",
+                    "name": "Deep Green"
+                },
+                {
+                    "slug": "midgreen",
+                    "color": "#235448",
+                    "name": "Mid Green"
+                },
+                {
+                    "slug": "hookersgreen",
+                    "color": "#2A735B",
+                    "name": "Hookers Green"
+                },
+                {
+                    "slug": "orange",
+                    "color": "#E87253",
+                    "name": "Orange"
+                },
+                {
+                    "slug": "yellow",
+                    "color": "#EEAB43",
+                    "name": "Yellow"
+                },
+                {
+                    "slug": "chartreuse",
+                    "color": "#D6EE43",
+                    "name": "Chartreuse"
+                },
+                {
+                    "slug": "brightgreen",
+                    "color": "#9AD25A",
+                    "name": "Bright Green"
+                },
+                {
+                    "slug": "verdigris",
+                    "color": "#34A3A2",
+                    "name": "Verdigris"
+                },
+                {
+                    "slug": "black",
+                    "color": "#0B1A19",
+                    "name": "Black"
+                },
+                {
+                    "slug": "isabelline",
+                    "color": "#F1F1EC",
+                    "name": "Isabelline"
+                }
+            ]
+        },
+        "layout": {
+            "contentSize": "1320px",
+            "wideSize": "1920px"
+        }
+    }
+}

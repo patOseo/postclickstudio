@@ -1,0 +1,15 @@
+h1,h2,h3,h4,h5,h6,.h1,.h2,.h3,.h4,.h5,.h6, .underline {
+    text-decoration-color: $chartreuse;
+    text-underline-offset: 0;
+    text-decoration-skip-ink: none;
+
+    span {
+        text-decoration: underline !important;
+        text-decoration-color: $chartreuse !important;
+        text-decoration-thickness: .5rem !important;
+    }
+}
+
+.fw-semibold {
+    font-weight: 600;
+}
